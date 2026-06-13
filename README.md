@@ -1,1 +1,17 @@
-# labtest2
+name: Simple CI
+
+ 
+
+on: push
+
+ 
+
+jobs:
+  build:
+    runs-on: Ubuntu-latest
+
+ 
+
+    steps:
+      - name: Print Message
+        run: echo "CI pipeline running"
